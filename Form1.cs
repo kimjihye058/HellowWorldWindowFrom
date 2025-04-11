@@ -26,5 +26,10 @@ namespace HellowWorldWindowFrom
         {
             lblTitle.Text = "탈락입니다.";
         }
+
+        private void exit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
