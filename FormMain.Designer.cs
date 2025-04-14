@@ -42,7 +42,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(341, 236);
+            this.button1.Location = new System.Drawing.Point(310, 288);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(303, 71);
             this.button1.TabIndex = 0;
@@ -60,7 +60,7 @@
             // lblTitle
             // 
             this.lblTitle.AutoSize = true;
-            this.lblTitle.Location = new System.Drawing.Point(334, 118);
+            this.lblTitle.Location = new System.Drawing.Point(306, 170);
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(310, 40);
             this.lblTitle.TabIndex = 1;
@@ -68,7 +68,7 @@
             // 
             // statusStrip1
             // 
-            this.statusStrip1.Location = new System.Drawing.Point(0, 448);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 741);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Size = new System.Drawing.Size(1015, 22);
             this.statusStrip1.TabIndex = 2;
@@ -96,7 +96,7 @@
             // 끝내기ToolStripMenuItem
             // 
             this.끝내기ToolStripMenuItem.Name = "끝내기ToolStripMenuItem";
-            this.끝내기ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.끝내기ToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
             this.끝내기ToolStripMenuItem.Text = "끝내기";
             this.끝내기ToolStripMenuItem.Click += new System.EventHandler(this.exit_Click);
             // 
@@ -111,14 +111,15 @@
             // 정보ToolStripMenuItem
             // 
             this.정보ToolStripMenuItem.Name = "정보ToolStripMenuItem";
-            this.정보ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.정보ToolStripMenuItem.Text = "정보";
+            this.정보ToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
+            this.정보ToolStripMenuItem.Text = "(퉁퉁사후르에대한)정보";
+            this.정보ToolStripMenuItem.Click += new System.EventHandler(this.정보ToolStripMenuItem_Click);
             // 
             // form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(23F, 40F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1015, 470);
+            this.ClientSize = new System.Drawing.Size(1015, 763);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.lblTitle);
